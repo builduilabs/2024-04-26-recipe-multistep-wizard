@@ -60,7 +60,7 @@ export default function Demo() {
             onClick={() => setStep(step > 4 ? step : step + 1)}
             className={`${
               step > 4 ? "pointer-events-none opacity-50" : ""
-            } bg duration-350 flex items-center justify-center rounded-full bg-[#6479f2] px-3.5 py-1.5 font-medium tracking-tight text-white transition hover:bg-[#8293f8] active:bg-blue-700`}
+            } bg duration-350 flex items-center justify-center rounded-full bg-[#6479f2] px-3.5 py-1.5 font-medium tracking-tight text-white transition hover:bg-[#8293f8] active:bg-[#6479f2]`}
           >
             Continue
           </button>
